@@ -6,9 +6,6 @@ class Handler:
     def __init__(self):
         pass
 
-    def handle_intro(self, request):
-        return web.Response(body=b"Hello, world")
-
     async def do_insert(self, value):
         document = {'key': value}
         result = await db.test_collection.insert(document)

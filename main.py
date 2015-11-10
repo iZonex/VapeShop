@@ -17,12 +17,14 @@ from aiohttp import web
 from grab_routes import routerutil
 from db_engine import db
 from settings import *
-from apps.account import *
+from apps.account import routes
 from apps.blog import *
 from apps.contacts import *
 from apps.eliquidsconstuctor import *
 from apps.faq import *
 from apps.shop import routes
+
+# TODO Refactoring for DEBUG MODE
 
 if DEBUG_MODE:
     import aiohttp_debugtoolbar
