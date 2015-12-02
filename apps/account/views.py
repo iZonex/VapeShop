@@ -1,5 +1,6 @@
 from aiohttp import web
 
+
 class MemberView:
 
     async def profile(self, request):
@@ -18,6 +19,7 @@ class MemberView:
         return web.Response(text='reg confirm')
 
 memberview = MemberView()
+
 
 class MemberAdminView:
 
