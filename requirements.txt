@@ -1,4 +1,4 @@
-aiohttp==0.18.3
+aiohttp==0.22.0
 aiohttp-debugtoolbar==0.0.5
 aiohttp-jinja2==0.6.1
 chardet==2.3.0
